@@ -13,4 +13,4 @@ devices = pb.getDevices()
 IP = sys.argv[1]
 
 #push IP to device!
-pb.Note(devices[0]["id"], "IP Address", IP)
+pb.pushNote(devices[0]["id"], "IP Address", IP)
